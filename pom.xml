@@ -3,15 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jeeqb.framework</groupId>
     <artifactId>jeeqb-framework</artifactId>
-    <version>2.3.3-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>jeeqb-framework</name>
     <description>jeeqb Framework is a lightweight Java Web Framework</description>
-    <url>http://www.jeeqb.org/</url>
+    <url>http://www.jeeqb.org/,http://www.jeeqb.com</url>
 
     <licenses>
         <license>
