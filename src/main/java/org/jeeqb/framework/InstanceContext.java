@@ -3,6 +3,9 @@ package org.jeeqb.framework;
 import org.jeeqb.framework.core.ClassScanner;
 import org.jeeqb.framework.core.ConfigHelper;
 import org.jeeqb.framework.core.impl.DefaultClassScanner;
+import org.jeeqb.framework.dao.DataAccessor;
+import org.jeeqb.framework.ds.DataSourceFactory;
+import org.jeeqb.framework.ds.impl.DefaultDataSourceFactory;
 import org.jeeqb.framework.util.ObjectUtil;
 import org.jeeqb.framework.util.StringUtil;
 

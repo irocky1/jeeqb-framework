@@ -41,5 +41,34 @@ public class BeanHelper {
         }
     }
 
+    /**
+     * 设置bean实例
+     * @param cls
+     * @param obj
+     */
+    public static void setBean(Class<?> cls, Object obj) {
+        beanMap.put(cls,obj);
+    }
+
+    /**
+     * 获取Bean Map
+     * @return
+     */
+    public static Map<Class<?>, Object> getBeanMap() {
+        return beanMap;
+    }
+
+    /**
+     * 获取Bean 实例
+     * @param cls
+     * @param <T>
+     * @return
+     */
+    public static <T> T getBean(Class<T> cls){
+        if(!beanMap.containsKey(cls)){
+            throw new RuntimeException("无法根据类名获取类实例"+cls);
+        }
+        return  (T) beanMap.get(cls);
+    }
 
 }
