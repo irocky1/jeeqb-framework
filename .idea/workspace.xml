@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc95fcc-cc09-4b25-9635-5619519399f8" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/AopHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/AspectProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/proxy/Proxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/proxy/ProxyChain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/proxy/ProxyManger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/dao/DataAccessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/dao/DatabaseHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/dao/bean/Pager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/ds/DataSourceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/ds/impl/AbstractDataSourceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/ds/impl/DefaultDataSourceFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/ioc/IocHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/plugin/PluginProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/tx/TransactionProxy.java" />
+    <list default="true" id="ffc95fcc-cc09-4b25-9635-5619519399f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/InstanceContext.java" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/InstanceContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/ioc/BeanHelper.java" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/ioc/BeanHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/util/FileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/util/FileUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,9 +78,11 @@
       <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jeeqb/framework/util/FileUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3402">
-              <caret line="173" column="1" lean-forward="true" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="168">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1326,7 +1312,7 @@
       <workItem from="1519780253967" duration="6187000" />
       <workItem from="1520043087695" duration="1918000" />
       <workItem from="1521278869292" duration="2097000" />
-      <workItem from="1521363825590" duration="18603000" />
+      <workItem from="1521363825590" duration="18652000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1521364043530</created>
@@ -1335,11 +1321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521364043530</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add aop&amp;ioc&amp;ds">
+      <created>1521453985136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521453985136</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71591000" />
+    <option name="totallyTimeSpent" value="71640000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1424,7 +1417,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add aop&amp;ioc&amp;ds" />
+    <option name="LAST_COMMIT_MESSAGE" value="add aop&amp;ioc&amp;ds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2066,9 +2060,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jeeqb/framework/util/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3402">
-          <caret line="173" column="1" lean-forward="true" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
