@@ -9,7 +9,8 @@ public class BitSetUtil {
 
     public static void main(String[] args){
         BitSet set = new BitSet();
-        set.
+        set.set(2);
+        System.out.println(set);
 
     }
 
