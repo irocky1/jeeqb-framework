@@ -4,6 +4,7 @@ import org.jeeqb.framework.core.ClassScanner;
 import org.jeeqb.framework.core.ConfigHelper;
 import org.jeeqb.framework.core.impl.DefaultClassScanner;
 import org.jeeqb.framework.dao.DataAccessor;
+import org.jeeqb.framework.dao.impl.DefaultDataAccessor;
 import org.jeeqb.framework.ds.DataSourceFactory;
 import org.jeeqb.framework.ds.impl.DefaultDataSourceFactory;
 import org.jeeqb.framework.util.ObjectUtil;
@@ -78,33 +79,33 @@ public class InstanceContext {
         return getInstance(DATA_ACCESSOR, DefaultDataAccessor.class);
     }
 
-    /**
-     * 获取 HandlerMapping
-     */
-    public static HandlerMapping getHandlerMapping() {
-        return getInstance(HANDLER_MAPPING, DefaultHandlerMapping.class);
-    }
-
-    /**
-     * 获取 HandlerInvoker
-     */
-    public static HandlerInvoker getHandlerInvoker() {
-        return getInstance(HANDLER_INVOKER, DefaultHandlerInvoker.class);
-    }
-
-    /**
-     * 获取 HandlerExceptionResolver
-     */
-    public static HandlerExceptionResolver getHandlerExceptionResolver() {
-        return getInstance(HANDLER_EXCEPTION_RESOLVER, DefaultHandlerExceptionResolver.class);
-    }
-
-    /**
-     * 获取 ViewResolver
-     */
-    public static ViewResolver getViewResolver() {
-        return getInstance(VIEW_RESOLVER, DefaultViewResolver.class);
-    }
+//    /**
+//     * 获取 HandlerMapping
+//     */
+//    public static HandlerMapping getHandlerMapping() {
+//        return getInstance(HANDLER_MAPPING, DefaultHandlerMapping.class);
+//    }
+//
+//    /**
+//     * 获取 HandlerInvoker
+//     */
+//    public static HandlerInvoker getHandlerInvoker() {
+//        return getInstance(HANDLER_INVOKER, DefaultHandlerInvoker.class);
+//    }
+//
+//    /**
+//     * 获取 HandlerExceptionResolver
+//     */
+//    public static HandlerExceptionResolver getHandlerExceptionResolver() {
+//        return getInstance(HANDLER_EXCEPTION_RESOLVER, DefaultHandlerExceptionResolver.class);
+//    }
+//
+//    /**
+//     * 获取 ViewResolver
+//     */
+//    public static ViewResolver getViewResolver() {
+//        return getInstance(VIEW_RESOLVER, DefaultViewResolver.class);
+//    }
 
     @SuppressWarnings("unchecked")
     public static <T> T getInstance(String cacheKey, Class<T> defaultImplClass) {

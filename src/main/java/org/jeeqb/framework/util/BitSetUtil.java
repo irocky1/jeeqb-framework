@@ -10,6 +10,7 @@ public class BitSetUtil {
     public static void main(String[] args){
         BitSet set = new BitSet();
         set.set(2);
+        set.set(10,true);
         System.out.println(set);
 
     }
