@@ -1,5 +1,5 @@
 # jeeqb-framework
-jeeqb: java EE quick build;
+jeeqb: java EE quick build; <br /><br />
 使用此框架你能得到：
 1. 了解AOP实现原理以及事务实现
 2. 了解IOC实现原理

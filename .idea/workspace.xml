@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc95fcc-cc09-4b25-9635-5619519399f8" name="Default" comment="mo">
+    <list default="true" id="ffc95fcc-cc09-4b25-9635-5619519399f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -39,8 +39,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="84">
-                <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <first_editor relative-caret-position="189">
+                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -979,7 +979,7 @@
       <workItem from="1519780253967" duration="6187000" />
       <workItem from="1520043087695" duration="1918000" />
       <workItem from="1521278869292" duration="2097000" />
-      <workItem from="1521363825590" duration="31593000" />
+      <workItem from="1521363825590" duration="31716000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1521364043530</created>
@@ -1016,11 +1016,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521540001804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modify readme">
+      <created>1521540451675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521540451675</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84581000" />
+    <option name="totallyTimeSpent" value="84704000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1076,7 +1083,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="add aop&amp;ioc&amp;ds" />
     <MESSAGE value="add orm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add orm" />
+    <MESSAGE value="modify readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1620,8 +1628,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <first_editor relative-caret-position="189">
+            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
