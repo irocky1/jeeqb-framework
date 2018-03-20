@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ffc95fcc-cc09-4b25-9635-5619519399f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -44,6 +44,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,7 +105,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/annotation/AspectOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/tx/annotation/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/tx/annotation/Transaction.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/proxy/Proxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/proxy/ProxyChain.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/aop/proxy/ProxyManger.java" />
@@ -126,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/util/BitSetUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeeqb/framework/JEEQB.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -979,7 +989,7 @@
       <workItem from="1519780253967" duration="6187000" />
       <workItem from="1520043087695" duration="1918000" />
       <workItem from="1521278869292" duration="2097000" />
-      <workItem from="1521363825590" duration="31716000" />
+      <workItem from="1521363825590" duration="31977000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1521364043530</created>
@@ -1023,11 +1033,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521540451675</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modify readme">
+      <created>1521540563414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521540563414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84704000" />
+    <option name="totallyTimeSpent" value="84965000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1103,20 +1120,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeeqb/framework/core/bean/BaseBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="e#447#448#0" expanded="false" />
-            <element signature="e#510#511#0" expanded="false" />
-            <element signature="e#565#566#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jeeqb/framework/core/fault/InitializationError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1633,6 +1636,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
