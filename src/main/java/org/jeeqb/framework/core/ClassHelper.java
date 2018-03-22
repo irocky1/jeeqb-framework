@@ -14,7 +14,7 @@ public class ClassHelper {
     /**
      * 获取基础包名
      */
-    private static final String backPage = ConfigHelper.getString("jeeqb.framework.app.base_package");
+    private static final String backPage = ConfigHelper.getString("app.base_package");
 
     /**
      * 获取类扫描器

@@ -11,10 +11,10 @@ import javax.sql.DataSource;
  */
 public abstract class AbstractDataSourceFactory<T extends DataSource> implements DataSourceFactory {
 
-    protected final String driver = ConfigHelper.getString("jeeqb.framework.jdbc.driver");
-    protected final String url = ConfigHelper.getString("jeeqb.framework.jdbc.url");
-    protected final String username = ConfigHelper.getString("jeeqb.framework.jdbc.username");
-    protected final String password = ConfigHelper.getString("jeeqb.framework.jdbc.password");
+    protected final String driver = ConfigHelper.getString("jdbc.driver");
+    protected final String url = ConfigHelper.getString("jdbc.url");
+    protected final String username = ConfigHelper.getString("jdbc.username");
+    protected final String password = ConfigHelper.getString("jdbc.password");
 
     @Override
     public final T getDataSource(){

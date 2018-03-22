@@ -43,7 +43,7 @@ public class DatabaseHelper {
     /**
      * 数据库类型
      */
-    private final static String databaseType = ConfigHelper.getString("jeeqb.framework.jdbc.type");
+    private final static String databaseType = ConfigHelper.getString("jdbc.type");
 
     /**
      * 获取数据库类型

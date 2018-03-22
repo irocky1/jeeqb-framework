@@ -7,6 +7,14 @@ import org.jeeqb.framework.dao.DataAccessor;
 import org.jeeqb.framework.dao.impl.DefaultDataAccessor;
 import org.jeeqb.framework.ds.DataSourceFactory;
 import org.jeeqb.framework.ds.impl.DefaultDataSourceFactory;
+import org.jeeqb.framework.mvc.HandlerExceptionResolver;
+import org.jeeqb.framework.mvc.HandlerInvoker;
+import org.jeeqb.framework.mvc.HandlerMapping;
+import org.jeeqb.framework.mvc.ViewResolver;
+import org.jeeqb.framework.mvc.impl.DefaultHandlerExceptionResolver;
+import org.jeeqb.framework.mvc.impl.DefaultHandlerInvoker;
+import org.jeeqb.framework.mvc.impl.DefaultHandlerMapping;
+import org.jeeqb.framework.mvc.impl.DefaultViewResolver;
 import org.jeeqb.framework.util.ObjectUtil;
 import org.jeeqb.framework.util.StringUtil;
 
@@ -26,37 +34,37 @@ public class InstanceContext {
     /**
      * ClassScanner
      */
-    private static final String CLASS_SCANNER = "jeeqb.framework.custom.class_scanner";
+    private static final String CLASS_SCANNER = "custom.class_scanner";
 
     /**
      * DataSourceFactory
      */
-    private static final String DS_FACTORY = "jeeqb.framework.custom.ds_factory";
+    private static final String DS_FACTORY = "custom.ds_factory";
 
     /**
      * DataAccessor
      */
-    private static final String DATA_ACCESSOR = "jeeqb.framework.custom.data_accessor";
+    private static final String DATA_ACCESSOR = "custom.data_accessor";
 
     /**
      * HandlerMapping
      */
-    private static final String HANDLER_MAPPING = "jeeqb.framework.custom.handler_mapping";
+    private static final String HANDLER_MAPPING = "custom.handler_mapping";
 
     /**
      * HandlerInvoker
      */
-    private static final String HANDLER_INVOKER = "jeeqb.framework.custom.handler_invoker";
+    private static final String HANDLER_INVOKER = "custom.handler_invoker";
 
     /**
      * HandlerExceptionResolver
      */
-    private static final String HANDLER_EXCEPTION_RESOLVER = "jeeqb.framework.custom.handler_exception_resolver";
+    private static final String HANDLER_EXCEPTION_RESOLVER = "custom.handler_exception_resolver";
 
     /**
      * ViewResolver
      */
-    private static final String VIEW_RESOLVER = "jeeqb.framework.custom.view_resolver";
+    private static final String VIEW_RESOLVER = "custom.view_resolver";
 
     /**
      * 获取 ClassScanner
@@ -79,33 +87,33 @@ public class InstanceContext {
         return getInstance(DATA_ACCESSOR, DefaultDataAccessor.class);
     }
 
-//    /**
-//     * 获取 HandlerMapping
-//     */
-//    public static HandlerMapping getHandlerMapping() {
-//        return getInstance(HANDLER_MAPPING, DefaultHandlerMapping.class);
-//    }
-//
-//    /**
-//     * 获取 HandlerInvoker
-//     */
-//    public static HandlerInvoker getHandlerInvoker() {
-//        return getInstance(HANDLER_INVOKER, DefaultHandlerInvoker.class);
-//    }
-//
-//    /**
-//     * 获取 HandlerExceptionResolver
-//     */
-//    public static HandlerExceptionResolver getHandlerExceptionResolver() {
-//        return getInstance(HANDLER_EXCEPTION_RESOLVER, DefaultHandlerExceptionResolver.class);
-//    }
-//
-//    /**
-//     * 获取 ViewResolver
-//     */
-//    public static ViewResolver getViewResolver() {
-//        return getInstance(VIEW_RESOLVER, DefaultViewResolver.class);
-//    }
+    /**
+     * 获取 HandlerMapping
+     */
+    public static HandlerMapping getHandlerMapping() {
+        return getInstance(HANDLER_MAPPING, DefaultHandlerMapping.class);
+    }
+
+    /**
+     * 获取 HandlerInvoker
+     */
+    public static HandlerInvoker getHandlerInvoker() {
+        return getInstance(HANDLER_INVOKER, DefaultHandlerInvoker.class);
+    }
+
+    /**
+     * 获取 HandlerExceptionResolver
+     */
+    public static HandlerExceptionResolver getHandlerExceptionResolver() {
+        return getInstance(HANDLER_EXCEPTION_RESOLVER, DefaultHandlerExceptionResolver.class);
+    }
+
+    /**
+     * 获取 ViewResolver
+     */
+    public static ViewResolver getViewResolver() {
+        return getInstance(VIEW_RESOLVER, DefaultViewResolver.class);
+    }
 
     @SuppressWarnings("unchecked")
     public static <T> T getInstance(String cacheKey, Class<T> defaultImplClass) {

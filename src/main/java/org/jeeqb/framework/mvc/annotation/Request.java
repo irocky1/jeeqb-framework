@@ -18,7 +18,7 @@ public @interface Request {
      */
     @Target(ElementType.METHOD)
     @Retention(RetentionPolicy.RUNTIME)
-    public @interface GET{
+    public @interface GET {
         String value();
     }
 
@@ -27,7 +27,7 @@ public @interface Request {
      */
     @Target(ElementType.METHOD)
     @Retention(RetentionPolicy.RUNTIME)
-    public @interface POST{
+    public @interface POST {
         String value();
     }
 
@@ -36,7 +36,7 @@ public @interface Request {
      */
     @Target(ElementType.METHOD)
     @Retention(RetentionPolicy.RUNTIME)
-    public @interface PUT{
+    public @interface PUT {
         String value();
     }
 
@@ -45,7 +45,7 @@ public @interface Request {
      */
     @Target(ElementType.METHOD)
     @Retention(RetentionPolicy.RUNTIME)
-    public @interface DELETE{
+    public @interface DELETE {
         String value();
     }
 

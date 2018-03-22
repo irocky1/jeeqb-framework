@@ -34,9 +34,9 @@ public interface JEEQB {
     /**
      * web相关配置
      */
-    String JSP_PATH = ConfigHelper.getString("jeeqb.app.jsp_path", "/WEB-INF/jsp/");
-    String WWW_PATH = ConfigHelper.getString("jeeqb.app.www_path", "/www/");
-    String HOME_PAGE = ConfigHelper.getString("jeeqb.app.home_page", "/index.html");
-    int UPLOAD_LIMIT = ConfigHelper.getInt("jeeqb.app.upload_limit", 10);
+    String JSP_PATH = ConfigHelper.getString("app.jsp_path", "/WEB-INF/jsp/");
+    String WWW_PATH = ConfigHelper.getString("app.www_path", "/www/");
+    String HOME_PAGE = ConfigHelper.getString("app.home_page", "/index.html");
+    int UPLOAD_LIMIT = ConfigHelper.getInt("app.upload_limit", 10);
 
 }
